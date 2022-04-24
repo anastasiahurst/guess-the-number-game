@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/gamestyles.css" />
+    <title>Game: guess the number</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <button class="btn new_game_btn">NEW GAME</button>
+      </div>
+      <div>
+        <div class="emoji_container">
+          <img class="emoji" src="/guess_emoji.png" alt="guessing emoji" />
+        </div>
+        <h1>Can you guess the number?</h1>
+      </div>
+    </header>
+
+    <main>
+      <div class="secret_number_container">
+        <p class="secret_number">?</p>
+      </div>
+      <div class="message_container">
+          <p class="message">Let's start the game</p>
+      </div>
+
+      <div class="two_columns">
+        <div class="column1">
+          <div>
+            <p class="pick_number_message">Pick a number between 1 and 25.</p>
+          </div>
+          <div>
+            <input class="guess" type="number" maxlength="2" />
+          </div>
+          <div>
+            <button class="check btn">Check</button>
+          </div>
+        </div>
+        <div class="column2">
+            <div class="message_row">
+                <p>✅ Current score: &nbsp</p>
+                <p class="current_score updated_score">25</p>
+            </div>
+            <div class="message_row">
+                <p>🔥 Highest score: &nbsp</p>
+                <p class="highest_score updated_score">0</p>
+            </div>
+        </div>
+    </main>
+    <script src="/gamejs.js"></script>
+  </body>
+</html>

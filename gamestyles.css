@@ -1,0 +1,97 @@
+body {
+  margin: 0 auto;
+  padding-top: 2rem;
+  width: 90%;
+  background-color: rgb(1, 1, 42);
+  color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+.emoji_container {
+  width: 5%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.two_columns {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.column1 {
+  width: 70%;
+}
+.column2 {
+  width: 30%;
+}
+
+.message_row {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.message_container {
+  border: 1px solid rgb(208, 130, 130);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0rem 4rem;
+  text-transform: uppercase;
+  color: rgb(163, 126, 31);
+}
+
+.message {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.pick_number_message {
+  color: rgb(208, 130, 130);
+}
+
+.updated_score {
+  margin-left: 0.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.current_score {
+  color: rgb(123, 193, 106);
+}
+
+.highest_score {
+  color: rgb(165, 123, 46);
+}
+
+.secret_number_container {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.secret_number {
+  font-size: 3rem;
+  color: black;
+  background-color: rgb(233, 233, 115);
+  text-align: center;
+}
+
+.guess {
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.btn {
+  padding: 0.5rem 2rem;
+}
+
+.new_game_btn {
+  background-color: hsl(80, 61%, 50%);
+}
